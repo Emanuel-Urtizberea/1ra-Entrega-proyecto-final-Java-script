@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  #menu a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #3f3f3f;
+  }
+  
+  #menu button {
+    font-size: 18;
+    font-weight: 400;
+  }
+  
+  .carousel-inner  {
+    max-height: 39rem;
+  }
+  
+  #pie {
+    color: white;
+  }
+  
+  #msg textarea {
+    resize: none;
+  }
+
+  $fondos:#587558;
+  $fondos2:#EDB770;
+  $letras: #161111;
+  
+  
+body{
+      background-color: $fondos2;
+}
+.dropdown-menu{
+  background-color: #587558;
+}
+header{
+    background-color: $fondos;
+    font-family: 'Staatliches', cursive;
+}
+nav{
+    background-color: $fondos;
+    
+}
+section{
+    background-color: $fondos2;
+    h1{
+        color: $fondos;
+        font-family: 'Staatliches', cursive;
+        
+    }
+    p{
+        color: $letras;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    
+}
+footer{
+    background-color: $fondos;
+    font-family: 'Rubik', sans-serif;
+    p{
+        color: $letras;
+        font-family: 'Rubik', sans-serif;
+    }
+}
+.card{
+  background-color: $fondos2
+}
